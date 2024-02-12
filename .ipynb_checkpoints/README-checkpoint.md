@@ -1,7 +1,7 @@
 # Group Repository for the Data Science Mini-Project (EMATM0050)
 
 ## Please edit the fields below with your information
-Status: This branch contains work by ZHENGPENG WU
+Status: This branch contains work by Qi Chen
 
 Group Number: 5
 
