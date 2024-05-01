@@ -1,0 +1,30 @@
+Column Name,Data Type,Description
+complex.id,int64,"TCR id:
+
+1. TCR alpha and beta chain records belonging to the same T-cell clone.
+2. In case complex.id is equal to 0, a record doesn't have either alpha or beta chain."
+gene,str,TCR chain as alpha or beta
+cdr3,str,TCR Complementarity Determining Region 3 (CDR3) amino acid sequence
+v.segm,str,TCR Variable (V) segment
+j.segm,str,TCR Joining (J) gene segment
+species,str,TCR parent species
+mhc.a,str,First MHC chain allele
+mhc.b,str,Second MHC chain allele (MHC I: beta2-microglobulin <B2M>)
+mhc.class,str,MHC I or MHC II
+antigen.epitope,str,Amino acid sequence of the epitope
+antigen.gene,str,Parent gene of the epitope sequence
+antigen.species,str,Parent species of the antigen
+reference.id,str,"Pubmed id, doi, etc"
+method,str,"Method information for frequency, identification, etc"
+meta,str,"Meta information for cell.subset, clone.id, donor.MHC ,etc"
+cdr3fix,str,CDR3 fixing
+vdjdb.score,int64,"Confidence score for the antigen specificity annotation of a given TCR clonotype/clone:
+
+0 - low confidence
+1 - medium confidence
+2 - high confidence
+3 - very high confidence"
+web.method,str,Source or collection method of data
+web.method.seq,str,Sequencing technology
+web.cdr3fix.nc,str,Whether the CDR3 needs to be corrected
+web.cdr3fix.unmp,str,CDR3 sequence mapping status
